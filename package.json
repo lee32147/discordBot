@@ -1,0 +1,11 @@
+{
+  "name”": "PostBot",
+  "version": "1.0.0",
+  "description": "PostBot",
+  "main": "bot.js",
+  "author": "lee32147",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+  }
+}
