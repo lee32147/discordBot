@@ -53,20 +53,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				});
 			}
 			break;
-			case 'porn':  
-			var i = 1;
-			interval2 = setInterval(function(){
-				nazwa = "girl" + i + ".gif"
-				bot.uploadFile({
-					to: channelID,
-					file: nazwa
-					});
-					i++;
-					if (i > 3){
-						clearInterval(interval2);
-					}
-			}, 1000);
-			break;
 			case 'stop':
 			if(flaga == true){
 				clearInterval(interval);
